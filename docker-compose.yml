@@ -34,7 +34,7 @@ services:
         condition: service_healthy
     volumes:
       - prominence:/data:ro
-      - ./mc-backups:/backups
+      - ./backups:/backups
   restore-backup:
     container_name: restore_backup
     image: itzg/mc-backup
@@ -42,7 +42,7 @@ services:
     entrypoint: restore-tar-backup
     volumes:
       - prominence:/data
-      - ./mc-backups:/backups:ro
+      - ./backups:/backups:ro
 volumes:
   prominence:
     external: true
