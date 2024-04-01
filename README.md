@@ -15,6 +15,8 @@ Foi utilizada a imagem `itzg/minecraft-server` acompanhada de configurações at
 É necessário ter o [Docker](https://www.docker.com/products/docker-desktop/) instalado na máquina;
 
 ### Rodando
+> Comece alterando o arquivo `.env.example` com suas próprias configurações/credenciais.
+
 Para iniciar o container, você pode utilizar o comando `docker compose up -d`.
 
 ### Comandos
