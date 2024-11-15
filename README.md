@@ -101,6 +101,3 @@ FORGE_FORCE_REINSTALL = TRUE
 
 > [!CAUTION]
 > A variável já se encontra no arquivo `.env`, basta descomentar a linha, rodar o `docker compose up -d`, e comentar a mesma novamente. **Lembre-se de não executar novamente com essa variável, pois ela força a reinstalação do Forge.**
-
-## 📜 Licença
-Este projeto é propriedade intelectual do [Studio](https://github.com/studioresearch), sendo estritamente proibido compartilhar os arquivos ou utilizá-los para outros fins sem autorização expressa, incluindo propósitos pessoais e/ou comerciais.
