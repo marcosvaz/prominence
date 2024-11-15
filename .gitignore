@@ -1,4 +1,4 @@
-/logs
 /backups
 /downloads
+/logs
 .env
